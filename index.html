@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YEVHENII'S PORTFOLIO</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/Yevhenii Bytiuk.png"
+              alt="Yevhenii Bytiuk"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">YEVHENII BYTIUK</h1>
+
+            <p class="title">Senior Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>ABOUT</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>RESUME</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>PORTFOLIO</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>OUR TEAM</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">ABOUT ME</h2>
+          </header>
+
+          <section class="about-text">
+            <p style="font-weight: 500; font-size: 17px; margin-bottom: 3px">
+              Welcome to my portfolio site.
+            </p>
+            <p>
+              I am a extensive skilled CMS developer and full-stack expert with
+              6+ years of experience creating stunning, functional, and
+              user-friendly websites. Whether you're looking to build an
+              e-commerce platform, redesign your website, or add custom
+              functionality, I will help you. I'm ready for you anytime!
+            </p>
+
+            <p style="font-size: 18px; font-weight: 500; margin-bottom: 4px">
+              💻 My Expertise Includes:
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ CMS Development: WordPress, Shopify, Webflow, HubSpot, and more
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ Website Builders: Elementor and Divi for seamless drag-and-drop
+              designs
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ Front-End Development: Proficient in HTML/CSS for pixel-perfect
+              designs
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ E-commerce: WordPress, WooCommerce and Shopify to set up and
+              optimize your online store
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ MERN Stack: Build modern, responsive, and scalable web Shopify
+            </p>
+            <p style="margin-bottom: 0">
+              ✅ Data Entry & Management: Reliable and accurate handling of your
+              website content or product catalogs
+            </p>
+          </section>
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UX/UI design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="MERN Stack icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">MERN Stack</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">RESUME</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Odessa National Polytechnic University
+                </h4>
+                <p class="timeline-text">
+                  <span style="display: inline">Dates Attended: </span> 2018 —
+                  2022
+                </p>
+                <p class="timeline-text">
+                  <span style="display: inline">Major: </span> Computer Science
+                </p>
+                <p class="timeline-text">
+                  <span style="display: inline">Degree: </span> Bachelor of
+                  Computer Science
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Upwork Freelancer</h4>
+                <p class="timeline-text">
+                  <span style="display: inline">Period: </span> 2025. 1 —
+                  Present
+                </p>
+                <p class="timeline-text">
+                  <span style="display: inline">Company: </span> Freelance
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior MERN-Stack Web Developer
+                </h4>
+                <p class="timeline-text">
+                  <span style="display: inline">Period: </span> 2023. 12 — 2024.
+                  10
+                </p>
+                <p class="timeline-text">
+                  <span style="display: inline">Company: </span> KitRUM
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Senior CMS Developer</h4>
+                <p class="timeline-text">
+                  <span style="display: inline">Period: </span> 2022. 6 — 2023.
+                  9
+                </p>
+                <p class="timeline-text">
+                  <span style="display: inline">Company: </span> Kultprosvet
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UX/UI design</h5>
+                  <data value="40">40%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 40%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MERN-Stack Developer</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">PORTOFOLIO</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>WordPress</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Shopify</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>MERN Stack</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Webflow</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>WordPress</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Shopify</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>MERN Stack</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Webflow</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="wordpress"
+              >
+                <a href="https://kfcentre.ca/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/WordPress/Thumbnail-KF.png"
+                      alt="kf"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">KF</h3>
+
+                  <p class="project-category">WordPress</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a href="https://sathyaram.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/React/Thumbnail-Sathya Ram.png"
+                      alt="sathya ram"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Sathya Ram</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="shopify"
+              >
+                <a href="https://breeo.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Shopify/Thumbnail-BREEO.png"
+                      alt="breeo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BREEO</h3>
+
+                  <p class="project-category">Shopify</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="wordpress"
+              >
+                <a
+                  href="https://buildyourbuckshack.shannonfamilyofwines.com/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/WordPress/Thumbnail-BUCK SHACK.png"
+                      alt="buck shack"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BUCK SHACK</h3>
+
+                  <p class="project-category">WordPress</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="wordpress"
+              >
+                <a href="https://kinsta.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/WordPress/Thumbnail-Kinsta.png"
+                      alt="Kinsta"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Kinsta</h3>
+
+                  <p class="project-category">WordPress</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a href="https://vor-tex.io/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/React/Thumbnai-Vor-Tex.png"
+                      alt="vor-tex"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Vor-Tex</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a href="https://eightapp.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/React/Thumbnail-Eight.png"
+                      alt="eight"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Eight</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="wordpress"
+              >
+                <a href="https://www.vicon.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/WordPress/Thumbnail-VICON.png"
+                      alt="vicon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">VICON</h3>
+
+                  <p class="project-category">WordPress</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="shopify"
+              >
+                <a href="https://www.thevapehouse.co.uk/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Shopify/Thumbnail-VAPE.png"
+                      alt="vape"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">VAPE</h3>
+
+                  <p class="project-category">Shopify</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a href="https://qualisage.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/React/Thumbnail-Qualisage.png"
+                      alt="qualisage"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Qualisage</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="wordpress"
+              >
+                <a href="https://www.dgs-creation.fr/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/WordPress/thumbnail-DGS.png"
+                      alt="dgs"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DGS</h3>
+
+                  <p class="project-category">WordPress</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="webflow"
+              >
+                <a href="https://www.arbie.co/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Webflow/Thumbnail-ARBIE.png"
+                      alt="arbie"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">ARBIE</h3>
+
+                  <p class="project-category">Webflow</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="our team">
+          <header>
+            <h2 class="h2 article-title">TEAM MEMBER</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/9.png"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">DAVYD H</h3>
+
+                    <p class="blog-text">UX & UI Designer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/1.png"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">VLADYSLAV S</h3>
+
+                    <p class="blog-text">WordPress & Python Expert</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/2.png"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">BOHDAN S</h3>
+
+                    <p class="blog-text">PHP & Mern-Stack Developer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/3.png"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">NATALIIA S</h3>
+
+                    <p class="blog-text">Full-Stack Developer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/4.png"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">YAROSLAV K</h3>
+
+                    <p class="blog-text">Wordpress & Joomla Expert</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/5.png"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">DUSAN D</h3>
+
+                    <p class="blog-text">Mern-Stack Developer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/5.png"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">VOLODYMYR M</h3>
+
+                    <p class="blog-text">UX & UI Designer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/6.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">VLADYSLAV D</h3>
+
+                    <p class="blog-text">Software Developer</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/7.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">OLEKSANDR B</h3>
+
+                    <p class="blog-text">CRM Expert</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/team/8.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">VOLODYMYR U</h3>
+
+                    <p class="blog-text">Front-End Developer</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
